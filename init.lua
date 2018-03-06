@@ -19,6 +19,7 @@
 --import file /craft.lua
 
 dofile(minetest.get_modpath("trainblocks") .. "/craft.lua")
+dofile(minetest.get_modpath("trainblocks") .. "/alias.lua")
 
 
 
@@ -26,7 +27,7 @@ dofile(minetest.get_modpath("trainblocks") .. "/craft.lua")
 
 minetest.register_node("trainblocks:subwayblock", {
     description = "Subwayblock",
-	light_source = 7,
+	light_source = 8,
     tiles = {
         "down_subwayblock.png",
         "down_subwayblock.png",
@@ -44,7 +45,7 @@ minetest.register_node("trainblocks:subwayblock", {
 
 minetest.register_node("trainblocks:sbahnblock", {
     description = "Sbahnblock",
-    light_source = 7,
+    light_source = 8,
 	tiles = {
         "down_sbahnblock.png",
         "down_sbahnblock.png",
