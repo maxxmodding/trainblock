@@ -58,6 +58,24 @@ minetest.register_node("trainblocks:sbahnblock", {
     drop = "trainblocks:sbahnblock"
 })
 
+--gabriel's mountain railway block
+
+minetest.register_node("trainblocks:mr", {
+    description = "Mountain Railway Block",
+    light_source = 8,
+	tiles = {
+			"down_mr.png",
+			"down_mr.png",
+			"front_mr.png",
+			"front_mr.png",
+			"front_mr.png",
+			"front_mr.png"
+		},
+    is_ground_content = true,
+    groups = {cracky = 3},
+    drop = "trainblocks:sbahnblock"
+})
+
 --subway signs Line 1 to 10
 
 for count = 1, 10, 1 do  
@@ -137,3 +155,5 @@ minetest.register_node("trainblocks:subwaysignR", {
 	is_ground_content = false,
 	groups = {cracky = 3},
 })
+
+
