@@ -20,4 +20,4 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 License for Textures, Models and Sounds
 ---------------------------------------
 
-CC-BY-SA 3.0 UNPORTED. Created by maxx, gpcf
+AGPL 3 Created by maxx, gpcf
