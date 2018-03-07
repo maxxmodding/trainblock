@@ -19,7 +19,7 @@
 --import file /craft.lua
 
 dofile(minetest.get_modpath("trainblocks") .. "/craft.lua")
-dofile(minetest.get_modpath("trainblocks") .. "/alias.lua")
+
 
 
 
