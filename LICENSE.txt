@@ -20,4 +20,4 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 License for Textures, Models and Sounds
 ---------------------------------------
 
-AGPL 3 Created by maxx, gpcf
+AGPL v3 Created by maxx, gpcf
