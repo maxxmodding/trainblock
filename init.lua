@@ -83,16 +83,14 @@ for count = 1, 10, 1 do
 minetest.register_node("trainblocks:line" .. count, {    
     description = "Line " .. count,
 	drawtype = "nodebox",
-
-    tiles = {"front_line" .. count .. ".png"},
+	tiles = {"front_line" .. count .. ".png"},
 	inventory_image = "inventory_line" .. count .. ".png",
 	light_source = 5,
-    groups = {cracky = 3},
+    	groups = {cracky = 3},
 	
 	paramtype2 = "facedir",
 	paramtype = 'light',
 	
-	drawtype = "nodebox",
 	node_box = {
 		type = "fixed",
 		fixed = {
