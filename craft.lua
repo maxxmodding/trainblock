@@ -14,9 +14,9 @@ minetest.register_craft({
 minetest.register_craft({
 	output = 'trainblocks:sbahnblock',
 	recipe = {
-		{'', 'dye:orange', ''},
+		{'', 'dye:green', ''},
 		{'dye:white', 'default:glass', 'dye:white'},
-		{'', 'dye:orange', ''},
+		{'', 'dye:green', ''},
 	}
 })
 
